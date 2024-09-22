@@ -2,7 +2,7 @@
 
 ## Summary
 
-A non-commercial multiplayer RTS browser game built with phaser.
+A non-commercial multiplayer RTS browser game built with phaser. [Try the latest version here](https://aidan-waite.github.io/MetaCraft/phaser/dist/index.html)!
 
 ## Goals and TODO
 
