@@ -8,9 +8,9 @@ A non-commercial multiplayer RTS browser game built with phaser.
 
 The overall goal is to get one simple RTS unit working locally, then to get it working multiplayer.
 
-[ ] Make a single unit that you can left click select and right click move
-[ ] Give units health and attack
-[ ] Add multiplayer support
+- [ ] Make a single unit that you can left click select and right click move
+- [ ] Give units health and attack
+- [ ] Add multiplayer support
 
 Once we have these absolute basics working, we'll come up with a new list of TODOs!
 
