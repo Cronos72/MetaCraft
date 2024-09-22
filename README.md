@@ -28,3 +28,7 @@ Once we have these absolute basics working, we'll come up with a new list of TOD
 3. Get your pull request merged.
 4. See [deployments](https://github.com/aidan-waite/MetaCraft/deployments/github-pages). Every push to main should trigger a deployment which updates the webpage with the newest code.
 5. Visit `https://aidan-waite.github.io/MetaCraft/phaser/dist/index.html` and see your change!
+
+## Shout outs
+
+- Jeep asset is from [generalgames](https://generalgames.itch.io/vehicle-sprite-sheets)
