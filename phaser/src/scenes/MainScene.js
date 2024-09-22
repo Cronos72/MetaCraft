@@ -10,6 +10,9 @@ export class MainScene extends Scene {
 
     jeep = null
     jeepSelection = null
+    jeepSpriteIndex = 0
+
+    frame = 0
 
     constructor() {
         super("MainScene");
@@ -32,12 +35,18 @@ export class MainScene extends Scene {
     }
 
     update() {
+        this.frame++;
         this.moveJeep();
     }
 
     moveJeep() {
         this.jeepSelection.x = this.jeep.x;
         this.jeepSelection.y = this.jeep.y + 10;
+
+        if (this.frame % 10 == 0) {
+            this.jeepSpriteIndex++;
+            this.jeep.setFrame(this.jeepSpriteIndex % 32);
+        }
     }
 
     onObjectClicked(pointer, gameObject) {

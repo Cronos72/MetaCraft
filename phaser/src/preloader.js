@@ -7,7 +7,7 @@ export class Preloader extends Phaser.Scene {
 
     preload() {
         this.load.setPath("assets");
-        this.load.spritesheet('jeep', 'jeep_45_spaced.png', { frameWidth: 45, frameHeight: 45 });
+        this.load.spritesheet('jeep', 'jeep_45_spaced.png', { frameWidth: 48, frameHeight: 48 });
     }
 
     create() {
