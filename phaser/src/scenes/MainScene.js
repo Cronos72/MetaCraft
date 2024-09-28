@@ -8,8 +8,6 @@ export class MainScene extends Phaser.Scene {
     }
 
     preload() {
-        // Load assets here
-        // this.load.image('jeep', 'path/to/jeep.png'); // Replace with the correct path
     }
 
     create() {
@@ -17,6 +15,7 @@ export class MainScene extends Phaser.Scene {
         this.createInitialUnits(populationCount);
 
         this.input.mouse.disableContextMenu();
+        this.input.setDefaultCursor('url(https://labs.phaser.io/assets/input/cursors/sc2/SC2-cursor.cur), pointer');
 
         this.selectionManager = new SelectionManager(this);
     }
