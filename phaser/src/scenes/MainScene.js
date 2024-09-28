@@ -18,6 +18,19 @@ export class MainScene extends Phaser.Scene {
         this.input.setDefaultCursor('url(https://labs.phaser.io/assets/input/cursors/sc2/SC2-cursor.cur), pointer');
 
         this.selectionManager = new SelectionManager(this);
+
+        this.bullets = this.physics.add.group({
+            defaultKey: 'bullet',
+            maxSize: 10
+        });
+
+        this.input.keyboard.on('keydown', event => {
+            switch (event.key) {
+                case ' ':
+                    this.fireBullet();
+                    break;
+            }
+        });
     }
 
     createInitialUnits(count) {

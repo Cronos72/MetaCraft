@@ -12,6 +12,11 @@ export class Unit {
         this.wiggleAmplitude = wiggleAmplitude;
         this.wiggleTime = 0;
         this.radius = 30; // Minimum distance between units
+        this.bullets = this.scene.physics.add.group({
+            defaultKey: 'bullet',
+            maxSize: 100
+        });
+        this.bulletSpeed = 600;
     }
 
     move(delta, units = []) {
@@ -19,6 +24,7 @@ export class Unit {
         if (this.hasTarget()) {
             this.moveToTarget(delta);
             this.horribleCollisionHack(units);
+            this.fireBullets(units);
         } else {
             this.stopMovement();
         }
@@ -104,6 +110,27 @@ export class Unit {
                     unit.sprite.x += Math.cos(angle) * overlap / 2;
                     unit.sprite.y += Math.sin(angle) * overlap / 2;
                 }
+            }
+        });
+    }
+
+    fireBullets(units) {
+        units.forEach(unit => {
+            const bullet = this.bullets.get();
+            if (bullet) {
+                bullet.setActive(true);
+                bullet.setVisible(true);
+                bullet.setPosition(unit.sprite.x, unit.sprite.y);
+
+                const angle = Phaser.Math.Angle.Between(unit.sprite.x, unit.sprite.y, this.target.x, this.target.y);
+                this.scene.physics.velocityFromAngle(Phaser.Math.RadToDeg(angle), this.bulletSpeed, bullet.body.velocity);
+                bullet.body.setCollideWorldBounds(true);
+                bullet.body.onWorldBounds = true;
+
+                this.scene.time.delayedCall(2000, () => {
+                    bullet.setActive(false);
+                    bullet.setVisible(false);
+                });
             }
         });
     }
