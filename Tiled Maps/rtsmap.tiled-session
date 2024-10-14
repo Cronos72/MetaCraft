@@ -1,0 +1,204 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "worldmap-small.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "exportAsImage.visibleLayersOnly": true,
+    "fileStates": {
+        "": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#Dirt": {
+            "dynamicWrapping": true
+        },
+        "#customs": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "#grass": {
+            "scaleInDock": 1
+        },
+        "#ground-tiles": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "#spritesheet_nature-blocks": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#t1": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "#t10": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "#t2": {
+            "scaleInDock": 1
+        },
+        "grass.json": {
+            "scaleInDock": 1
+        },
+        "ground-tileset.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "ground.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rts-map-2.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 338,
+                "y": 353
+            }
+        },
+        "rts-map-2.tmx#Dirt": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rts-map-2.tmx#spritesheet_nature-blocks": {
+            "scaleInDock": 1
+        },
+        "rts-map-3.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 157.33333333333337,
+                "y": 246.66666666666669
+            }
+        },
+        "rts-map-3.tmx#spritesheet_nature-blocks": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "rts-map.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1513.3333333333335,
+                "y": 294.66666666666663
+            }
+        },
+        "rts-map.tmx#spritesheet_nature-blocks": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "testtiles.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "testtiles.tmx#t1": {
+            "scaleInDock": 1
+        },
+        "ttest.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "ttest.tmx#c1": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "ttest.tmx#t1": {
+            "scaleInDock": 1
+        },
+        "worldmap-blankfield.tmj": {
+            "scale": 0.3240885416666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1919.2286058658096,
+                "y": 1258.9152269987949
+            }
+        },
+        "worldmap-blankfield.tmj#customs": {
+            "scaleInDock": 1
+        },
+        "worldmap-field.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2320,
+                "y": 900
+            }
+        },
+        "worldmap-field.tmx#grass": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "worldmap-small.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -9,
+                "y": 274
+            }
+        },
+        "worldmap-small.tmx#ground": {
+            "scaleInDock": 1
+        },
+        "worldmap-small.tmx#ground-tiles": {
+            "dynamicWrapping": false,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/xampp/htdocs/MetaCraft/phaser/public/assets/images/tilemaps",
+    "last.externalTilesetPath": "C:/xampp/htdocs/MetaCraft/Tiled Maps",
+    "last.imagePath": "C:/xampp/htdocs/MetaCraft/phaser/public/assets/images/tiles/custom",
+    "map.fixedSize": true,
+    "map.height": 10,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.orientation": "2",
+    "map.renderOrder": "0",
+    "map.tileHeight": 42,
+    "map.tileWidth": 64,
+    "map.width": 10,
+    "openFiles": [
+        "worldmap-small.tmx",
+        "worldmap-field.tmx"
+    ],
+    "project": "rtsmap.tiled-project",
+    "recentFiles": [
+        "worldmap-field.tmx",
+        "worldmap-small.tmx",
+        "ground-tileset.tsj",
+        "ttest.tmx",
+        "worldmap-blankfield.tmj",
+        "testtiles.tmx",
+        "rts-map.tmx",
+        "rts-map-2.tmx",
+        "rts-map-3.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 42,
+        "width": 64
+    },
+    "tileset.type": 0,
+    "tileset.useTransparentColor": false
+}

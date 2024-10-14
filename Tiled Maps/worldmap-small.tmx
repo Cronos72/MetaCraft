@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="42" infinite="0" nextlayerid="3" nextobjectid="1">
+ <editorsettings>
+  <export target="../phaser/public/assets/images/tilemaps/worldmap-small.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="ground" tilewidth="64" tileheight="42" tilecount="1" columns="1">
+  <image source="../phaser/public/assets/images/tiles/custom/grass.png" width="64" height="42"/>
+ </tileset>
+ <layer id="2" name="ground" width="10" height="10">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+</map>

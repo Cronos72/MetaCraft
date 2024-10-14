@@ -1,0 +1,14 @@
+{ "columns":1,
+ "image":"..\/phaser\/public\/assets\/images\/tiles\/custom\/grass.png",
+ "imageheight":42,
+ "imagewidth":64,
+ "margin":0,
+ "name":"ground",
+ "spacing":0,
+ "tilecount":1,
+ "tiledversion":"1.11.0",
+ "tileheight":42,
+ "tilewidth":64,
+ "type":"tileset",
+ "version":"1.10"
+}

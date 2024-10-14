@@ -4,7 +4,7 @@ import { MainScene } from "./scenes/MainScene";
 
 // More information about config: https://newdocs.phaser.io/docs/3.70.0/Phaser.Types.Core.GameConfig
 const config = {
-    type: Phaser.AUTO,
+    type: Phaser.WEBGL,
     parent: "phaser-container",
     width: 960,
     height: 540,
